@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../Libs/Utils/Utils.csproj",
+      "bin": {
+        "assembly": "../../Libs/Utils/obj/{configuration}/Utils.dll",
+        "pdb": "../../Libs/Utils/obj/{configuration}/Utils.pdb"
+      }
+    }
+  },
+  "entryPoint": "Utils",
+  "loadable": false,
+  "dependencies": {
+    "Utils": "1.0.0"
+  }
+}

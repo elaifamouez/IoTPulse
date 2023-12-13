@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Repositories.Dapper</id>
+    <version>1.0.0</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Repositories.Dapper</authors>
+    <owners>Repositories.Dapper</owners>
+    <description>Repositories.Dapper</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="Dapper" version="1.50.0-beta6" />
+        <dependency id="Newtonsoft.Json" version="8.0.1" />
+        <dependency id="Gateways.MySensors" version="1.0.0" />
+        <dependency id="Nodes" version="1.0.0" />
+        <dependency id="Users" version="1.0.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

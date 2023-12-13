@@ -1,0 +1,357 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "Dapper/1.50.0-beta6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Dapper.dll": {}
+        }
+      },
+      "Gateways.MySensors/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Utils": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Gateways.MySensors.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Gateways.MySensors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Nodes/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Nodes.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Nodes.dll": {}
+        }
+      },
+      "Repositories.Dapper/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.50.0-beta6",
+          "Gateways.MySensors": "1.0.0",
+          "Newtonsoft.Json": "8.0.1",
+          "Nodes": "1.0.0",
+          "Users": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Repositories.Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Repositories.Dapper.dll": {}
+        }
+      },
+      "Users/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Users.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Users.dll": {}
+        }
+      },
+      "Utils/1.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Utils.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x86": {
+      "Dapper/1.50.0-beta6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Dapper.dll": {}
+        }
+      },
+      "Gateways.MySensors/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Utils": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Gateways.MySensors.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Gateways.MySensors.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Nodes/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.1"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Nodes.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Nodes.dll": {}
+        }
+      },
+      "Repositories.Dapper/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.50.0-beta6",
+          "Gateways.MySensors": "1.0.0",
+          "Newtonsoft.Json": "8.0.1",
+          "Nodes": "1.0.0",
+          "Users": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Repositories.Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Repositories.Dapper.dll": {}
+        }
+      },
+      "Users/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.2"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Users.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Users.dll": {}
+        }
+      },
+      "Utils/1.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapper/1.50.0-beta6": {
+      "type": "package",
+      "sha512": "rf0kO9cogFRk124PUXI5InMgTc/cFzeWZR39X0CU22LA8lEWTMkFS+/oU7CQt8gEjAaSnC59/Wjn93/0xPAFwQ==",
+      "files": [
+        "Dapper.1.50.0-beta6.nupkg",
+        "Dapper.1.50.0-beta6.nupkg.sha512",
+        "Dapper.nuspec",
+        "lib/dnx451/Dapper.dll",
+        "lib/dnx451/Dapper.xml",
+        "lib/dotnet5.4/Dapper.dll",
+        "lib/dotnet5.4/Dapper.xml",
+        "lib/net40/Dapper.dll",
+        "lib/net40/Dapper.xml",
+        "lib/net45/Dapper.dll",
+        "lib/net45/Dapper.xml"
+      ]
+    },
+    "Gateways.MySensors/1.0.0": {
+      "type": "package",
+      "sha512": "f7nBlRO0oC/32LpN28uqaUZ9PSaK4KvhsEUQ8rjm45LZ4UCsY1K2D5aqi9ge5XECfzfgi3QGOCyo3VVctl5Qpw==",
+      "files": [
+        "Gateways.MySensors.1.0.0.nupkg",
+        "Gateways.MySensors.1.0.0.nupkg.sha512",
+        "Gateways.MySensors.nuspec",
+        "lib/net451/Gateways.MySensors.dll",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "Newtonsoft.Json/8.0.2": {
+      "type": "package",
+      "sha512": "e5yWmEfu68rmtG431zl9N/7PlNKQDIuiDW5MHlEFAZcecakcxrIGnKqrPAtWNILzK2oNanRB5cD150MYhECK3g==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.8.0.2.nupkg",
+        "Newtonsoft.Json.8.0.2.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Nodes/1.0.0": {
+      "type": "package",
+      "sha512": "/Dwz2r5J0JXgNs58ZVenvu54CZocNDe87LZn3DGQ9ZBJunlypBjmrNkln1OzlfigaUExdhgO10WI1zMg7gNquQ==",
+      "files": [
+        "lib/net451/Nodes.dll",
+        "Nodes.1.0.0.nupkg",
+        "Nodes.1.0.0.nupkg.sha512",
+        "Nodes.nuspec",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "Repositories.Dapper/1.0.0": {
+      "type": "package",
+      "sha512": "FEnDYA70PTWpoyDn93gssi0NMkBLMgWcl9yUhkkSmeXU/JA7zmHNZEjQJULiuv+iB8VaiMoAU6cp5oaRfnIpZw==",
+      "files": [
+        "lib/net451/Repositories.Dapper.dll",
+        "Repositories.Dapper.1.0.0.nupkg",
+        "Repositories.Dapper.1.0.0.nupkg.sha512",
+        "Repositories.Dapper.nuspec",
+        "root/project.json",
+        "root/project.lock.json"
+      ]
+    },
+    "Users/1.0.0": {
+      "type": "package",
+      "sha512": "fYUg94n8HXX9+clAMzuZCS0c00hbVxGu/piA2GZQYm6FKKIv/xX5H4cR1BgwB/stTGgd+xe5YHrYylsF7tkUzw==",
+      "files": [
+        "lib/net451/Users.dll",
+        "root/project.json",
+        "root/project.lock.json",
+        "Users.1.0.0.nupkg",
+        "Users.1.0.0.nupkg.sha512",
+        "Users.nuspec"
+      ]
+    },
+    "Utils/1.0.0": {
+      "type": "package",
+      "sha512": "gBeUDho1DCNY3hWyX+IEVpEZb1aXCbKdbYfSI2XwlquhBGwuk3B62Qe6aPHp54M9gY8zepeeYCR+j+kXkM+QYw==",
+      "files": [
+        "lib/net451/Utils.dll",
+        "root/project.json",
+        "root/project.lock.json",
+        "Utils.1.0.0.nupkg",
+        "Utils.1.0.0.nupkg.sha512",
+        "Utils.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Repositories.Dapper >= 1.0.0"
+    ],
+    ".NETFramework,Version=v4.5.1": [
+      "Dapper >= 1.50.0-beta6",
+      "Newtonsoft.Json >= 8.0.1",
+      "Gateways.MySensors >= 1.0.0-*",
+      "Nodes >= 1.0.0-*",
+      "Users >= 1.0.0-*"
+    ]
+  }
+}

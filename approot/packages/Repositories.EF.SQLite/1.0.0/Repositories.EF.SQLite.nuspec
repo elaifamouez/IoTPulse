@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Repositories.EF.SQLite</id>
+    <version>1.0.0</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Repositories.EF.SQLite</authors>
+    <owners>Repositories.EF.SQLite</owners>
+    <description>Repositories.EF.SQLite</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="EntityFramework.Core" version="7.0.0-rc1-final" />
+        <dependency id="EntityFramework.Relational" version="7.0.0-rc1-final" />
+        <dependency id="EntityFramework.Sqlite" version="7.0.0-rc1-final" />
+        <dependency id="Ix-Async" version="1.2.5" />
+        <dependency id="Microsoft.Data.Sqlite" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Caching.Abstractions" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Caching.Memory" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Configuration" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Logging" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.OptionsModel" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.PlatformAbstractions" version="1.0.0-rc1-final" />
+        <dependency id="Microsoft.Extensions.Primitives" version="1.0.0-rc1-final" />
+        <dependency id="Newtonsoft.Json" version="8.0.1" />
+        <dependency id="Remotion.Linq" version="2.0.1" />
+        <dependency id="System.Collections.Immutable" version="1.1.36" />
+        <dependency id="System.Diagnostics.DiagnosticSource" version="4.0.0-beta-23516" />
+        <dependency id="System.Diagnostics.Tracing" version="4.0.0" />
+        <dependency id="System.Runtime" version="4.0.0" />
+        <dependency id="System.Threading" version="4.0.0" />
+        <dependency id="Gateways.MySensors" version="1.0.0" />
+        <dependency id="Nodes" version="1.0.0" />
+        <dependency id="Users" version="1.0.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

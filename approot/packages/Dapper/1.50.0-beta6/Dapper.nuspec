@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Dapper</id>
+    <version>1.50.0-beta6</version>
+    <title>Dapper dot net</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Sam Saffron,Marc Gravell,Nick Craver</authors>
+    <owners>marc.gravell,nick.craver</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/StackExchange/dapper-dot-net</projectUrl>
+    <description>A high performance Micro-ORM supporting SQL Server, MySQL, Sqlite, SqlCE, Firebird etc..</description>
+    <summary>A high performance Micro-ORM</summary>
+    <releaseNotes>http://stackexchange.github.io/dapper-dot-net/</releaseNotes>
+    <copyright>2015 Stack Exchange, Inc.</copyright>
+    <tags>orm sql micro-orm</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework="DNX4.5.1" />
+      <group targetFramework=".NETPlatform5.4">
+        <dependency id="Microsoft.CSharp" version="4.0.1-beta-23516" />
+        <dependency id="System.Runtime" version="4.0.21-beta-23516" />
+        <dependency id="System.Collections" version="4.0.11-beta-23516" />
+        <dependency id="System.Collections.Concurrent" version="4.0.11-beta-23516" />
+        <dependency id="System.Data.SqlClient" version="4.0.0-beta-23516" />
+        <dependency id="System.Linq" version="4.0.1-beta-23516" />
+        <dependency id="System.Reflection.Emit.ILGeneration" version="4.0.1-beta-23516" />
+        <dependency id="System.Reflection.Emit.Lightweight" version="4.0.1-beta-23516" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.1.0-beta-23516" />
+        <dependency id="System.Text.RegularExpressions" version="4.0.11-beta-23516" />
+        <dependency id="System.Threading" version="4.0.11-beta-23516" />
+        <dependency id="System.Threading.ThreadPool" version="4.0.10-beta-23516" />
+        <dependency id="System.Collections.NonGeneric" version="4.0.1-beta-23516" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
