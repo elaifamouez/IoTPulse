@@ -49,3 +49,8 @@ Download or clone this repository
 To start the Web Controller, run the web.cmd file in the program folder.
 
 Open the web interface in the browser (http://localhost:1312) and complete the First Run wizard.
+
+### Developed By
+
+- [Kusare Chuwa Kusare](https://github.com/count58) 
+- [elaifamouez](https://github.com/elaifamouez) 
